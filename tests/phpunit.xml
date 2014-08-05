@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<phpunit bootstrap="bootstrap.php" colors="true">
+    <testsuites>
+        <testsuite name="xi-filelib tests">
+            <directory>./Xi</directory>
+        </testsuite>
+    </testsuites>
+
+    <php>
+        <const name="PDO_DRIVER" value="mysql" />
+        <const name="PDO_HOST" value="localhost" />
+        <const name="PDO_DBNAME" value="xi_filelib_zend" />
+        <const name="PDO_USERNAME" value="root" />
+        <const name="PDO_PASSWORD" value="g04753m135" />
+    </php>
+</phpunit>
